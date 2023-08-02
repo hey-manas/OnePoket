@@ -10,6 +10,7 @@ app.listen(port, () => {
 app.use('/',(req,res)=>{
  res.send("Hello world!");
 })
+
 //sum num of array
 const handleData=(array)=>{
     let num=1
